@@ -1,0 +1,4 @@
+# 市场索引来源列表（一行一个）。
+# 目前走 Git 源：生成器按 vX.Y.Z 标签和默认分支列出包内版本。
+# 发布到 npm 之后，把下面这行换成包名 dsh-dark-contrast 即可自动列出所有历史版本。
+https://github.com/imliupu/dsh-dark-contrast
