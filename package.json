@@ -1,0 +1,57 @@
+{
+  "name": "dsh-dark-contrast",
+  "version": "1.0.0",
+  "description": "Standalone dark reading-contrast setting for the DeepSeek Harness web GUI: a Settings row that steps the dark palette from soft to high contrast.",
+  "keywords": [
+    "deepseek",
+    "dsh",
+    "dsh-plugin",
+    "dsh-bundle",
+    "theme",
+    "dark-mode",
+    "contrast",
+    "accessibility",
+    "settings"
+  ],
+  "icon": "./icon.svg",
+  "license": "MIT",
+  "author": "imliupu (https://github.com/imliupu)",
+  "homepage": "https://github.com/imliupu/dsh-dark-contrast#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imliupu/dsh-dark-contrast.git"
+  },
+  "bugs": {
+    "url": "https://github.com/imliupu/dsh-dark-contrast/issues"
+  },
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "locale/*.json",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0",
+    "dsh": ">=0.1.6-alpha.2"
+  }
+}

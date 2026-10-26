@@ -1,0 +1,6 @@
+# Standalone dark reading-contrast setting for the DSH web GUI.
+# One host row: it contributes the level stylesheet and the pre-paint body
+# script; its browser half registers the Settings row.
+- insert:
+    - id: dsh-dark-contrast
+      name: dsh-dark-contrast
