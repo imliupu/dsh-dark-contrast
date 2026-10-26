@@ -1,0 +1,54 @@
+{
+  "format": 1,
+  "title": { "en": "imliupu's DSH plugins", "zh": "imliupu 的 DSH 插件" },
+  "description": {
+    "en": "Small, self-contained plugins for DeepSeek Harness.",
+    "zh": "为 DeepSeek Harness 编写的小而自包含的插件。"
+  },
+  "metadata": {
+    "categories": {
+      "appearance": { "title": { "en": "Appearance", "zh": "外观" } }
+    },
+    "sortKeys": {
+      "updated": { "title": { "en": "Updated", "zh": "更新时间" }, "order": "desc" }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-dark-contrast",
+      "title": { "en": "Dark Contrast", "zh": "深色对比" },
+      "description": {
+        "en": "Step the dark appearance through five reading-contrast levels, from soft to high.",
+        "zh": "为深色外观提供五档阅读对比度，从柔和到鲜明。"
+      },
+      "icon": "icons/dsh-dark-contrast.svg",
+      "author": "imliupu",
+      "homepage": "https://github.com/imliupu/dsh-dark-contrast#readme",
+      "repository": { "url": "https://github.com/imliupu/dsh-dark-contrast" },
+      "metadata": {
+        "category": "appearance",
+        "keywords": [
+          "deepseek",
+          "dsh-plugin",
+          "theme",
+          "dark-mode",
+          "contrast",
+          "accessibility"
+        ],
+        "sortKeys": { "updated": 1792984778 }
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1792984778,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/imliupu/dsh-dark-contrast.git",
+            "commit": "3ea80f4afd5e1dcd2b3468b3cf07924feaa25ab7"
+          },
+          "engines": { "dsh": ">=0.1.6-alpha.2" }
+        }
+      ]
+    }
+  ]
+}
